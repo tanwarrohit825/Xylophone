@@ -15,51 +15,64 @@
 
         <Button
             android:id="@+id/note1"
-            android:layout_width="362dp"
+            android:layout_width="match_parent"
             android:layout_height="64dp"
-            android:layout_marginLeft="9dp"
-            android:background="@color/blue"/>
+            android:layout_marginLeft="2pt"
+            android:layout_marginRight="2pt"
+            android:layout_marginTop="2pt"
+            android:layout_weight="6"
+            android:background="@color/blue"
+            android:onClick="playC" />
 
         <Button
             android:id="@+id/note2"
-            android:layout_width="299dp"
-            android:layout_height="93dp"
-            android:layout_marginLeft="9dp"
-            android:background="@color/colorAccent"/>
-
-        <Button
-            android:id="@+id/note3"
-            android:background="@color/fb"
-            android:layout_width="360dp"
-            android:layout_height="63dp"
-            android:layout_marginLeft="9dp" />
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_marginLeft="6pt"
+            android:layout_marginRight="6pt"
+            android:layout_weight="6"
+            android:background="@color/colorAccent"
+            android:onClick="playD" />
 
         <Button
             android:id="@+id/note4"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_marginLeft="9pt"
+            android:layout_marginRight="9pt"
+            android:layout_weight="6"
             android:background="@color/yellow"
-            android:layout_width="299dp"
-            android:layout_height="86dp"
-            android:layout_marginLeft="9dp" />
+            android:onClick="playF" />
 
         <Button
             android:id="@+id/note5"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_marginLeft="10pt"
+            android:layout_marginRight="10pt"
+            android:layout_weight="6"
             android:background="@color/red"
-            android:layout_width="366dp"
-            android:layout_height="59dp"
-            android:layout_marginLeft="9dp" />
+            android:onClick="playG" />
 
         <Button
             android:id="@+id/note6"
-            android:layout_width="347dp"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_marginLeft="11pt"
+            android:layout_marginRight="11pt"
+            android:layout_weight="6"
             android:background="@color/colorPrimaryDark"
-            android:layout_height="99dp"
-            android:layout_marginLeft="9dp" />
+            android:onClick="playA" />
 
         <Button
             android:id="@+id/note7"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_marginBottom="11pt"
+            android:layout_marginLeft="11pt"
+            android:layout_marginRight="11pt"
+            android:layout_weight="6"
             android:background="@color/black"
-            android:layout_width="363dp"
-            android:layout_height="68dp"
-            android:layout_marginLeft="9dp" />
+            android:onClick="playB" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
