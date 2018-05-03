@@ -9,47 +9,49 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@color/lco"
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/button6"
+            android:id="@+id/note1"
             android:layout_width="362dp"
             android:layout_height="64dp"
-            android:text="Button" />
+            android:layout_marginLeft="9dp" />
 
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/note2"
             android:layout_width="299dp"
             android:layout_height="93dp"
-            android:layout_marginLeft="9dp"
-            android:text="Button" />
+            android:layout_marginLeft="9dp" />
 
         <Button
-            android:id="@+id/button5"
+            android:id="@+id/note3"
             android:layout_width="360dp"
             android:layout_height="63dp"
-            android:layout_marginLeft="9dp"
-            android:text="Button" />
+            android:layout_marginLeft="9dp" />
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/note4"
             android:layout_width="299dp"
             android:layout_height="86dp"
-            android:layout_marginLeft="9dp"
-            android:text="Button" />
+            android:layout_marginLeft="9dp" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/note5"
             android:layout_width="366dp"
             android:layout_height="59dp"
-            android:layout_marginLeft="9dp"
-            android:text="Button" />
+            android:layout_marginLeft="9dp" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/note6"
             android:layout_width="347dp"
             android:layout_height="99dp"
-            android:layout_marginLeft="9dp"
-            android:text="Button" />
+            android:layout_marginLeft="9dp" />
+
+        <Button
+            android:id="@+id/note7"
+            android:layout_width="363dp"
+            android:layout_height="68dp"
+            android:layout_marginLeft="9dp" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
