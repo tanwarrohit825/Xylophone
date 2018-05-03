@@ -1,4 +1,4 @@
 # Xylophone
 test the sound
 
-paly the different sound use the Xylophone!!
+play the different sound use the Xylophone!!
